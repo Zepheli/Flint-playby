@@ -1,0 +1,114 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Sail&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Tapestry&display=swap" rel="stylesheet">
+
+
+<body style="background-image:url('https://i.postimg.cc/V60HyGcH/03493-383869609-1.png'); background-repeat: no-repeat; background-size: cover !important; margin:0;display: flex; align-items: center;flex-direction: row;height:100vh;overflow:hidden;">
+
+
+<img id="pic" align=left src=https://i.postimg.cc/s2ydsR2G/03489-2841600573.png width=auto height=100% style="margin-left:-200px;transition: 5s;">
+
+
+<center class="text_part" style="background-color: rgba(255, 255, 255, 0.9); border-style: solid; border-color: #032677 ;border-radius: 25px; width: 50%; margin-left: 5%; margin-right: 5%;">
+<font color="#032677" style="font-family: 'Grenze Gotisch', cursive;font-size:60px;"><b>Flint
+</b></font>
+ <br>
+
+<br>
+<div class="text">
+<font color="#032677" face='verdana' style="font-family: 'Tapestry', cursive;font-size:25px;">
+your friendly neighborhood fairy boyo
+<br>
+<br>
+
+</font>
+</div>
+<br>
+
+</center>
+<div style="position:fixed;top:0;right:0;margin:0;padding:0; z-index:9999;">
+<audio id="myVideo" controls autoplay src="Egzod & Maestro Chives - Royalty [Official Instrumental].mp3" type=audio/mpeg style="max-width: 30vw;">
+</audio>
+</div>
+
+<style>
+body{
+
+}
+
+.text_part{
+padding: 10px;
+}
+
+.text_part .text{
+/*height: 40vh;*/
+overflow-y:auto;
+text-align: left;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00ace6; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8a7970; 
+}
+
+/*IE*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.scrollable {
+        
+
+        /* ie scrollbar color properties */
+        scrollbar-base-color: #00ace6;
+        scrollbar-face-color: #00ace6;
+        scrollbar-3dlight-color: #00ace6;
+        scrollbar-highlight-color: #00ace6;
+        scrollbar-track-color: #ffffff;
+        scrollbar-arrow-color: #00ace6;
+        scrollbar-shadow-color: #00ace6;
+        scrollbar-dark-shadow-color: #00ace6;
+        
+        
+  }
+  
+    
+    
+}
+
+</style>
+
+<script>
+var x = document.getElementById("myVideo");
+x.volume = 0.2;
+$(document).ready(function(){
+
+$('#pic').hide();
+$('font').hide();
+$('#pic').animate({"margin-left": '+=200'}, 1000);
+$('#pic').fadeTo(3000, 1.0);
+$('font').fadeTo(3000, 1.0);
+
+
+});
+
+
+</script>
